@@ -6,7 +6,8 @@
   }
   
   body {
-    background-color: #15055c;
+    background-image: url(/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,9 +15,10 @@
   }
   
   #calc {
+    border-radius: 20px;
     width: 400px;
     padding: 0.5em;
-    background-color: #615959;
+    background-color: #d15f32;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -55,7 +57,7 @@
   
   #buttons-container button {
     border: 1px solid transparent;
-    border-radius: 0;
+    border-radius: 20px;
     height: 4em;
     font-size: 1.2em;
     background-color: #dbdbdb;
